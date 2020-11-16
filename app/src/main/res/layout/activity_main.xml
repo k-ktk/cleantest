@@ -25,4 +25,8 @@
             app:layout_constraintStart_toEndOf="@+id/editText" android:layout_marginStart="16dp"
             app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="16dp"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@mipmap/ic_launcher"
+            tools:layout_editor_absoluteY="329dp" tools:layout_editor_absoluteX="169dp" android:id="@+id/imageView"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
